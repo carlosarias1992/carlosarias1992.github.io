@@ -404,10 +404,6 @@ a.active {
     font-weight: 700;
 }
 
-.timeline-event-copy p:not(.timeline-event-thumbnail) {
-    padding-bottom: 1.2em;
-}
-
 .timeline-event-icon {
     -webkit-transition: -webkit-transform 0.2s ease-in;
     transition: -webkit-transform 0.2s ease-in;
