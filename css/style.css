@@ -575,8 +575,7 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    border: 1px #9b9b9b solid;
 }
 
 .portfolio-padding {
@@ -763,12 +762,20 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+
+    .portfolio-div {
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+
+    .portfolio-div {
+        padding-top: 0;
     }
 }
 
@@ -790,6 +797,10 @@ fieldset {
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+
+    .portfolio-div {
+        padding-top: 0;
     }
 }
 
