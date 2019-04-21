@@ -4,11 +4,11 @@ $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
     $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({
+    $('#preloader').fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').css({
         'overflow': 'visible'
     });
-})
+});
 
 $(document).ready(function () {
     "use strict";
@@ -104,7 +104,8 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    $("#demo01").animatedModal(1);
+    $("#demo02").animatedModal(2);
 
     // Contact Form 	
 
