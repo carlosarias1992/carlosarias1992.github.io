@@ -46,6 +46,18 @@ $(document).ready(function () {
         return false;
     });
 
+    const arrow = $('.arrow-holder');
+    arrow.find('a').on('click', function () {
+        var $el = $(this),
+            id = $el.attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(id).offset().top - nav_height + 2
+        }, 600);
+
+        return false;
+    });
+
 
     // Menu opacity
     if ($(window).scrollTop() > 80) {
@@ -60,8 +72,6 @@ $(document).ready(function () {
             $(".navbar-fixed-top").removeClass("bg-nav");
         }
     });
-
-
 
     // Parallax
     var parallax = function () {
