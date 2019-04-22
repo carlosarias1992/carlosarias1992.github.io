@@ -401,6 +401,8 @@ nav button {
 
 .about-img-div img {
     margin: 0 auto;
+    position: relative;
+    z-index: 999;
 }
 
 .about-border {
