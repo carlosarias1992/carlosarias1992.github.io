@@ -846,7 +846,7 @@ fieldset {
 
 .social li a {
     color: #333;
-    font-size: 25px;
+    font-size: 22px;
     transition: all .3s;
     -webkit-transition: all .3s;
 }
@@ -874,6 +874,10 @@ fieldset {
     .portfolio-div {
         padding-top: 0;
     }
+
+    .social li a {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -892,6 +896,10 @@ fieldset {
 
     .social li {
         margin-top: 10px;
+    }
+
+    .social li a {
+        font-size: 22px;
     }
 }
 
